@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Maven+Pro&family=Signika+Negative:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Signika Negative', 'Maven Pro', 'Assistant', 'sans-serif';
+}
+:root{
+    --primary-text-color: #e50914;
+    --secondary-text-color: #577592;
+}
+h1{
+    font-size: 3.5rem;
+    font-family: 'Signika Negative';
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'Signika Negative'; 
+}
+h3{
+    font-size: 1.7rem;
+    /* letter-spacing: 0.3rem; */
+    font-family: 'Maven Pro';
+}
+h4{
+    font-size: 1rem;
+}
+p{
+    font-size: 1.06rem;
+    font-weight: 100;
+    font-family: 'Assistant';
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+
+/* utality classes */
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.primary-button{
+    background-color: white;
+    color: var(--primary-text-color);
+    padding: 10px 20px;
+    border: 1px solid var(--primary-text-color);
+    border-radius: 6px;
+
+}
+.primary-button:hover{
+    transition: 0.5                 s ease-out;
+    /* box-shadow: 0 5px 10px  var(--primary-text-color); */
+    background-color: var(--primary-text-color);
+    color: white;
+}
+/* NAVIGATION BAR */
+.navigation-bar{
+    justify-content: space-between;
+    margin-block: auto;
+}
+.nav-img img{
+    width: 130px;
+}
+.nav-links{
+    gap: 25px;
+}
+.nav-link{
+
+    font-weight: 50 !important;
+}
+.hover-link{
+    color: black !important;
+    font-size: 0.7rem;
+}
+.hover-link:hover{
+    color: var(--primary-text-color) !important;
+    transition: 0.2s ease-out;
+    font-size: 0.75rem;
+}
+
+
+/* intro-page */
+.intro{
+    justify-content: space-around;
+    /* gap: 100px; */
+}
+.right-side > img{
+    width: 40vw;
+}
+.left-side > h3{
+   margin: 10px 0px 30px;
+}
+
+.name-color{
+    color: var(--primary-text-color);
+}
+
+/* ABOUT ME  */
+.about-me{
+    height: 60vh;
+    margin: 80px 0px;
+}
+.about-me-content{
+    gap: 190px;
+    margin: 20px 100px;
+    padding-right: 20px;
+}
+.left-side-abt > img{
+    width: 30vw;
+}
+.right-side-abt> h3{
+    font-size: 1rem;
+}
+.right-side-abt>p{
+    margin: 10px 0px 30px;
+}
+
+/* work exerience */
+
+.work-experience{
+    height: 80vh;
+}
+.line{
+    width: 80vw;
+    background: black;
+    height: 2px;
+    margin: 40px 0px;
+}
