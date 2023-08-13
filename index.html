@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harish Rashid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav >
+        <div class="container flex navigation-bar">
+            <a href="#" class="nav-img">
+                <img src="./images/harish_logo.png" alt="">
+            </a>
+            <ul class="nav-links flex">
+                <li class="nav-link"> <a href="#" class="hover-link" >HOME</a></li>
+                <li class="nav-link"> <a href="#" class="hover-link" >ABOUT</a></li>
+                <li class="nav-link"> <a href="#" class="hover-link" >SERVICES</a></li>
+                <li class="nav-link"> <a href="#" class="hover-link" >PROJECTS</a></li>
+                <li class="nav-link"> <a href="#" class="hover-link" >PRICING</a></li>
+                <li class="nav-link"> <a href="#" class="hover-link" >CONTACT ME</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- intro page -->
+
+    <section class="intro container flex">
+            <div class="left-side">
+                <h1>I'm <span id="element" class="name-color"></span></h1> 
+                <h3>You can reach out to me if you need any help in making a website for you or your business</h3>
+                <a href="#" class="primary-button">DISCOVER NOW</a>
+            </div>
+            <div class="right-side">
+                <img src="./images/profile_pic.jpg" alt="">
+            </div>
+    </section>
+
+    <!-- about me page  -->
+    <section class="about-me">
+        <div class="container flex about-me-content">
+            <div class="left-side-abt">
+                <img src="./images/about_me.jpg" alt="">
+            </div>
+            <div class="right-side-abt">
+                <h3>ABOUT ME</h3>
+                <h2>PERSONAL DETAILS</h2>
+                <p>Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <a href="#" class="primary-button">VIEW FULL DETAILS</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- work experience -->
+    <section class="work-experience container">
+        <p>what I have done so far</p>
+        <h3>Work Experience</h3>
+        <div class="line"></div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['HARISH RASHID', 'WEB DEVELOPER'],
+      typeSpeed: 50,
+      backSpeed : 50, 
+      loop : true
+    });
+  </script>
+</body>
+</html>
